@@ -48,11 +48,12 @@
 
 
 //5
-let temp = ""
-for(let i=1;i<6*2;i = i+2){
-    temp += "*".repeat(i) + "\n"
-}
-console.log(temp)
+// let temp = ""
+// for(let i=1;i<=6;i++){
+//     temp += " ".repeat(6-i) 
+//     temp += "*".repeat((i*2)-1) + "\n"
+// }
+// console.log(temp)
 
 
 //6
@@ -84,5 +85,21 @@ console.log(temp)
 // else{
 //     console.log("sorry")
 // }
+
+//9
+// ```
+// ***********
+//  *********
+//   *******
+//    *****
+//     ***
+//      *
+
+let temp = ""
+for(let i=6;i>=1;i--){
+     temp += " ".repeat(6-i) 
+    temp += "*".repeat(i*2-1) + "\n"
+}
+console.log(temp)
 
 //10

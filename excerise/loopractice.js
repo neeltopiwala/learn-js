@@ -445,33 +445,38 @@
 
 //43
 
-// let temp = "";
+// let temp1 = "";
 // for (let i = 1; i <= 5 * 2; i = i+2) {
 
 //   for (let j = 1; j <= 9; j++) {
 
 //     if (i <= j ) {
-//       temp += "*";
+//       temp1 += "*";
 //     }
 //     else if(i-j > j){
-//          temp += " ";
+//          temp1 += " ";
+//     }
+//   }
+//   temp1 += "\n";
+// }
+// console.log(temp1);
+
+//44
+// let rows = 6;
+// let temp = "";
+// let maxWidth = 2 * rows - 1;
+// for (let i = 1; i <= rows; i++) {
+//   let starsCount = 2 * i - 1;
+//   let spacesCount = (maxWidth - starsCount) / 2;
+//   for (let j = 1; j <= spacesCount + starsCount; j++) {
+//     if (j <= spacesCount) {
+//       temp += " ";
+//     } else {
+//       temp += "*";
 //     }
 //   }
 //   temp += "\n";
 // }
 // console.log(temp);
 
-//44
-// let temp = "";
-// for (let i = 1; i <= 5 * 2; i = i+2) {
-//   for (let j = 9; j >= 1; j--) {
-//     if (j <= i ) {
-//       temp += "*";
-//     }
-//     else if(j>=i){
-//          temp += " ";
-//     }
-//   }
-//   temp += "\n";
-// }
-// console.log(temp);
+

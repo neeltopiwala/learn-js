@@ -18,22 +18,23 @@
 // let total = frenchfrie + burgers + chowmin + Manchurian + Cokes
 // console.log(total)
 // && (i + 1) % 3 !== 0
+
 // 2
-let temp = "";
-for (let i = 7; i >= 1; i--) {
-     if ((i + 1) % 3 === 0) continue; 
-  for (let j = 1; j <= 7; j++) {
-    if (i >= j ) {
-      if ((j + 2) % 3 === 0) {
-        temp += "$" ;
-      } else {
-        temp += "#";
-      }
-    }
-  }
-  temp += "\n";
-}
-console.log(temp);
+// let temp = "";
+// for (let i = 7; i >= 1; i--) {
+//      if ((i + 1) % 3 === 0) continue; 
+//   for (let j = 1; j <= 7; j++) {
+//     if (i >= j ) {
+//       if ((j + 2) % 3 === 0) {
+//         temp += "$" ;
+//       } else {
+//         temp += "#";
+//       }
+//     }
+//   }
+//   temp += "\n";
+// }
+// console.log(temp);
 
 // $##$##$
 // $##$##
@@ -42,6 +43,7 @@ console.log(temp);
 // $
 
 //3
+
 
 //4
 // Using a switch case to do the below exercise:
