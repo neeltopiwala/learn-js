@@ -95,11 +95,26 @@
 //     ***
 //      *
 
-let temp = ""
-for(let i=6;i>=1;i--){
-     temp += " ".repeat(6-i) 
-    temp += "*".repeat(i*2-1) + "\n"
-}
-console.log(temp)
+// let temp = ""
+// for(let i=6;i>=1;i--){
+//      temp += " ".repeat(6-i) 
+//     temp += "*".repeat(i*2-1) + "\n"
+// }
+// console.log(temp)
 
 //10
+// 1 224 3339 444416 5555525
+
+// let str = "";
+// for (let i = 1; i <= 5; i++) {
+//   let sum = 0;
+//   for (let j = 1; j <= i; j++) {
+//     if (i !== 1) {
+//       sum = sum + i;
+//     } else {
+//       sum = "";
+//     }
+//   }
+//   str = str + i.toString().repeat(i) + sum + " ";
+// }
+// console.log(str);
